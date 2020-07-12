@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+html,
+body {
+  background: #eff3f4;
+  font-family: 'Ubuntu', sans-serif;
+}
+a.logo {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.text-white {
+  color: white;
+}
+.navbar-burger {
+  color: white;
+}
+.navbar {
+  background-color: transparent;
+}
+a.navbar-item {
+  color: white;
+}
+a.navbar-item.is-active {
+  color: white;
+  font-weight: bold;
+}
+a.navbar-item:hover {
+  background-color: transparent;
+  color: lightcyan;
+}
+.hero-card {
+  border-radius: 20px;
+  min-height: 200px;
+}
+.hero {
+  background: rgb(34, 188, 214);
+  background: linear-gradient(90deg, rgba(34, 188, 214, 1) 42%, rgba(78, 126, 224, 1) 100%);
+}
+.text-white {
+  color: white;
+}
+.hero-right {
+  margin: auto;
+  color: white !important;
+}
+.hero-body {
+  margin-top: 1%;
+  padding: 2rem !important;
+  flex-direction: row;
+  min-height: 500px;
+}
+.hero-body .container {
+  max-width: 700px;
+}
+.footer {
+  background-color: white;
+}
+.hero-body .title {
+  /* color: #22bcd6 !important; */
+}
+.hero-body .subtitle {
+  /* color: hsl(192, 17%, 99%) !important; */
+  /* padding-top: 2rem; */
+  line-height: 1.5;
+}
+.features {
+  padding: 5rem 0;
+}
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.card-image {
+  padding: 10px;
+}
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #209cee;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+.intro {
+  padding: 5rem 0;
+  text-align: center;
+}
+.sandbox {
+  padding: 5rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.is-child,
+.is-shady {
+  animation: flyintoright 0.4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.is-shady:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+/*adds font awesome stars*/
+footer li:before {
+  content: '\f1b2';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #147efb;
+}
+.hero-image {
+  margin: auto;
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1025px) {
+  .hero-image img {
+  }
+}
+@media (min-width: 640px) {
+  .hero-image > img {
+  }
+}
