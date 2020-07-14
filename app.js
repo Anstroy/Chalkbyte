@@ -8,7 +8,7 @@ const morgan = require('morgan')
 const app = express()
 
 // Constants
-const PORT = 8080
+const PORT = 8000
 const HOST = '0.0.0.0'
 
 // register view engine
